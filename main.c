@@ -3,6 +3,8 @@
 #include "abhisar.h"
 #include "madhura.h"
 #include "bhargav.h"
+#include "sanjana.h"
+#include "mounika.h"
 
 
 int main()
@@ -14,5 +16,6 @@ int main()
     print_madhura();
     print_mounika();
     print_bhargav();
+    print_sanjana();
     return 0;
 }
