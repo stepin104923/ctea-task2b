@@ -5,7 +5,7 @@
 #include "suryudu.h"
 #include "bhargav.h"
 #include "mounika.h"
-
+#include "geethika.h"
 
 int main()
 {
@@ -17,5 +17,6 @@ int main()
     print_suryudu();
     print_mounika();
     print_bhargav();
+    print_geethika();
     return 0;
 }
