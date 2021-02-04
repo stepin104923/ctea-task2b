@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "gouthamm.h"
+#include "sanjana.h"
 
 int main()
 {
     printf("Hello world!\n");
     print_gouthamm();
+    print_sanjana();
     return 0;
 }
