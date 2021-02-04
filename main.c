@@ -2,6 +2,7 @@
 #include "gouthamm.h"
 #include "abhisar.h"
 #include "madhura.h"
+#include "suryudu.h"
 
 int main()
 {
@@ -11,6 +12,7 @@ int main()
     print_preetham();
     print_madhura();
      print_mounika();
+     print_suryudu();
 
     return 0;
 }
