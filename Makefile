@@ -9,7 +9,8 @@ SRC = main.c \
 		src/gouthamm.c \
 		src/abhisar.c \
 		src/madhura.c \
-		src/preetham.c\
+		src/preetham.c \
+		src/mounika.c \
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
