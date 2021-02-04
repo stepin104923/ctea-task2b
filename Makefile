@@ -12,6 +12,7 @@ SRC = main.c \
 		src/preetham.c \
 		src/mounika.c \
 		src/suryudu.c \
+		src/bhargav.c \
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
