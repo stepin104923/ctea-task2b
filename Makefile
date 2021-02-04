@@ -7,6 +7,7 @@ BUILD = build
 # All source code files
 SRC = main.c \
 		src/gouthamm.c \
+		src/madhura.c \
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
