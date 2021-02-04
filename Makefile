@@ -8,6 +8,7 @@ BUILD = build
 SRC = main.c \
 		src/gouthamm.c \
 		src/sanjana.c \
+		src/madhura.c \
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
