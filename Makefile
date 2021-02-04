@@ -6,6 +6,7 @@ BUILD = build
 
 # All source code files
 SRC = main.c \
+		src/gouthamm.c \
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
@@ -17,7 +18,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) -o $(PROJECT_OUTPUT)
+	gcc $(SRC) -I inc -o $(PROJECT_OUTPUT)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
