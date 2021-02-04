@@ -1,4 +1,4 @@
-ifndef MOUNIKA_H
+#ifndef MOUNIKA_H
 #define MOUNIKA_H
 
 void print_mounika();
