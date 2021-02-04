@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = ctea-task2b 
+PROJECT_NAME = ctea-task2b
 
 # Output directory
 BUILD = build
@@ -8,10 +8,13 @@ BUILD = build
 SRC = main.c \
 		src/gouthamm.c \
 		src/sanjana.c \
+		src/abhisar.c \
 		src/madhura.c \
+		src/preetham.c \
+		src/mounika.c \
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
 # Default target built
 $(PROJECT_NAME):all
@@ -28,8 +31,8 @@ run:$(PROJECT_NAME)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	rm -rf $(BUILD)
 
 # Create new build folder if not present
 $(BUILD):
-	mkdir build
+	mkdir $(BUILD)
