@@ -2,8 +2,10 @@
 #include "gouthamm.h"
 #include "abhisar.h"
 #include "madhura.h"
+#include "preetham.h"
 #include "suryudu.h"
 #include "bhargav.h"
+#include "sanjana.h"
 #include "mounika.h"
 #include "geethika.h"
 
@@ -18,5 +20,6 @@ int main()
     print_mounika();
     print_bhargav();
     print_geethika();
+    print_sanjana();
     return 0;
 }
